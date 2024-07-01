@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-top {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('images/rsz_1movies.jpg');
+    height: 275px;
+    margin-bottom: -1rem;
+}
+
+.main-top-1 {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('images/rsz_1movies.jpg');
+    height: 275px;
+    margin-bottom: 2rem;
+}
+
+a {
+  margin-top: 7.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+h1 {
+    color: white;
+    margin-top: 7rem;
+}
+
+h2 {
+  padding: .5rem;
+}
+
+p {
+  padding: .3rem;
+  font-size: 1.2rem;
+}
+
+h3 {
+    color: white;
+    margin-top: 7.5rem;
+}
+
+input {
+    margin-left: 6rem;
+    height: 40px;
+    width: 400px;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    margin-left: -.5rem;
+}
+
+@media (max-width: 768px) {
+
+ button {
+  height: 40px;
+  width: 100px;
+  margin-top: -3rem;
+  margin-left: -.5rem;
+  margin-bottom: 1rem;
+ }
+}
+
+.fa-search {
+    font-size: 1.5rem;
+    padding-left: 15%;
+}
+
+.search-container input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: -1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.search-container i {
+    position: absolute;
+    top: 45.5%;
+    left: 16rem;
+    color: #aaa;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .search-container i {
+    position: absolute;
+    top: 51.5%;
+    left: -23rem;
+    right: 5rem;
+    color: #aaa;
+    font-size: 18px;
+ }
+}
+
+.search-container {
+   margin-top: 2rem;
+}
+
+input[type=text] {
+    outline: none;
+    padding-left: 3rem;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.movie-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+  
+.movie-container {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+.movie-container img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    padding-top: 1rem;
+}
+
+.movie-container .plot {
+    line-height: 1.5;
+    font-size: 1.2rem;
+ }
+ 
+ .movie-container .plus-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .empty {
+    margin-top: 2rem;
+ }
+  
+
+
+
+
