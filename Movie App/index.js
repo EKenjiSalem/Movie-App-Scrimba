@@ -8,8 +8,6 @@ btn.addEventListener('click', function() {
         return;
     }
 
-    // const url = `http://www.omdbapi.com/?apikey=beb22ab6&s=${searchInput}`;
-
     fetch(`http://www.omdbapi.com/?apikey=beb22ab6&s=${searchInput}`)
         .then(response => response.json())
         .then(data => {
